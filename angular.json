@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "baralko-pasal"
+    }
+  },
+  "defaultProject": "baralko-pasal",
+  "cli": {
+    "analytics": false
+  }
 }
