@@ -1,2 +1,2 @@
-# baralko-pasal
+# baralko-pasal-web
 Baral Grocery Store
