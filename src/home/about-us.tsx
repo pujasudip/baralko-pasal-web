@@ -1,5 +1,16 @@
-import React, { FC } from "react"
+import React, { FC, useEffect } from "react"
+import axios from "axios"
 
 export const AboutUs: FC = () => {
-    return <div>About us test page</div>
+    useEffect(() => {
+        axios('http://localhost:8080/api/students', {
+            method: "GET"
+        }).then(res => {
+            console.log('res:', res.data)
+        })
+
+    }, [])
+    return <div>
+        hello
+    </div>
 }
